@@ -148,31 +148,52 @@
           <h2 class="work-title title">Чем мы занимаемся</h2>
           <ul class="work-list list">
             <li class="work-item">
-              <img
-                class="img"
-                src="./images/code.jpg"
-                alt="код"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./images/code.jpg 1x, ./images/code-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  class="img"
+                  src="./images/code.jpg"
+                  alt="код"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+
               <p class="work-list-text">Десктопные приложения</p>
             </li>
             <li class="work-item">
-              <img
-                src="./images/develop.jpg"
-                alt="моб разработка"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./images/develop.jpg 1x, ./images/develop-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/develop.jpg"
+                  alt="моб разработка"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+
               <p class="work-list-text">Мобильные приложения</p>
             </li>
             <li class="work-item">
-              <img
-                src="./images/styles.jpg"
-                alt="стили"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="./images/styles.jpg 1x, ./images/styles-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/styles.jpg"
+                  alt="стили"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+
               <p class="work-list-text">Дизайнерские решения</p>
             </li>
           </ul>
@@ -189,12 +210,36 @@
           <h2 class="team-title title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img
-                src="./images/product_designer.jpg"
-                alt="Игорь Демьяненко"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/product_designer.jpg    1x,
+                    ./images/product_designer-2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/product_designer-tab-1x.jpg 1x,
+                    ./images/product_designer-tab-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/product_designer-mob-1x.jpg    1x,
+                    ./images/product_designer-mob2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./images/product_designer.jpg"
+                  alt="Игорь Демьяненко"
+                  width="270"
+                  height="260"
+                />
+              </picture>
+
               <div class="employee">
                 <h3 class="team-subtitle">Игорь Демьяненко</h3>
                 <p class="team-text" lang="en">Product Designer</p>

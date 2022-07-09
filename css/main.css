@@ -329,7 +329,12 @@ body {
 }
 
 .benefits {
-  padding-bottom: 0;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding-bottom: 0;
+  }
 }
 
 .benefits__list {
@@ -908,12 +913,10 @@ body {
 }
 
 .modal {
-  position: relative;
   padding: 40px;
   width: 100%;
-  max-width: 290px;
   background-color: var(--bgc-light);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(109, 87, 87, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 700ms ease;
 }
