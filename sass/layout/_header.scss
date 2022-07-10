@@ -169,15 +169,22 @@
   margin-left: auto;
   border: none;
   background-color: transparent;
+  color: var(--main-text-color);
 
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
   // .menu-mob__btn--close {
   //   display: none;
   // }
-@media screen and (min-width:768px) {
-  display: none;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
-  
 
+.menu-mob__icon {
+  fill: currentColor;
 }
 
 .menu-mob__btn--close {

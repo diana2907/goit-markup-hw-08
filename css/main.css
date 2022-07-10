@@ -302,11 +302,19 @@ body {
   margin-left: auto;
   border: none;
   background-color: transparent;
+  color: var(--main-text-color);
+}
+.menu-mob__btn:hover, .menu-mob__btn:focus {
+  color: var(--accent-color);
 }
 @media screen and (min-width: 768px) {
   .menu-mob__btn {
     display: none;
   }
+}
+
+.menu-mob__icon {
+  fill: currentColor;
 }
 
 .menu-mob__btn--close {
