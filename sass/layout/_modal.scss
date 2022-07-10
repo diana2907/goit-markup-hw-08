@@ -184,7 +184,7 @@
   color: var(--accent-color);
 }
 
-.check-label span {
+.check-label .checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,7 +196,7 @@
   margin-right: 7px;
 }
 
-.input-check:checked + .check-label span {
+.input-check:checked + .check-label .checkbox {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
 }
