@@ -34,9 +34,7 @@
               <a class="menu__link" href="./index.html">Студия</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link current" href="./portfolio.html"
-                >Портфолио</a
-              >
+              <a class="menu__link current" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="menu__item">
               <a class="menu__link" href="">Контакты</a>
@@ -62,6 +60,75 @@
             >
           </li>
         </ul>
+
+        <button class="menu-mob__btn menu-open-btn" type="button">
+          <svg
+            class="menu-mob__btn--open"
+            width="40"
+            height="40"
+            aria-label="Мобильное меню"
+          >
+            <use class="" href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="menu-mob is-hidden">
+        <div class="container">
+          <div class="mob-menu-top">
+            <button
+              class="menu-mob__btn menu-mob__btn--close close-open-btn"
+              type="button"
+            >
+              <svg class="" width="40" height="40" aria-label="Мобильное меню">
+                <use
+                  class="menu-mob__btn--close"
+                  href="./images/icons.svg#icon-close"
+                ></use>
+              </svg>
+            </button>
+            <ul class="menu-mob_list">
+              <li class="menu-mob__item">
+                <a class="menu-mob__link" href="./index.html">Студия</a>
+              </li>
+              <li class="menu-mob__item">
+                <a class="menu-mob__link current" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="menu-mob__item">
+                <a class="menu-mob__link" href="">Контакты</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mob-menu-bot">
+            <ul class="mob-contacts">
+              <li class="mob-contacts__item">
+                <a class="mob-contacts__tel" href="tel:+380991111111">
+                  +38 099 111 11 11</a
+                >
+              </li>
+              <li class="mob-contacts__item">
+                <a class="mob-contacts__mail" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="mob-soc">
+              <li class="mob-soc__item">
+                <a class="mob-soc__link">Instagram </a>
+              </li>
+              <li class="mob-soc__item">
+                <a class="mob-soc__link">Twitter </a>
+              </li>
+              <li class="mob-soc__item">
+                <a class="mob-soc__link">Facebook </a>
+              </li>
+              <li class="mob-soc__item">
+                <a class="mob-soc__link">LinkedIn </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -588,5 +655,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
